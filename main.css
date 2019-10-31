@@ -1,0 +1,33 @@
+		body{
+			width: 70%;
+			margin: auto;
+			font-size: 21px;
+			font-family: sans-serif;
+			margin-bottom: 250px;
+
+		}
+		footer{
+			background-color: grey;
+			color: white;
+		}
+
+		.sub{
+			margin-left: 10%;
+			color: red;
+			font-size: 120%;
+		}
+
+		img{
+			margin-left: 40%;
+		}
+		li{
+			list-style: none;
+			display: inline-block;
+		}
+		li a{
+			color: red
+		}
+
+		#operaciones_bits{
+			margin-left: 40px;
+		}

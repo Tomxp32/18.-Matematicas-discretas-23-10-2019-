@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Mathematics and Its Applications</title>
+</head>
+<body>
+	<header>
+		<h1>Matematicas discretas</h1>
+		<h2>Clases de este curso</h2>
+		<aside>
+			<ul>
+				<li><a href="#clase1"><abbr title="Clase 1: Que es la matematica discreta, Tablas de verdad (23-10-2019)">Clase #1</abbr></a></li>
+				<li><a href="#clase2"><abbr title="Clase 2: Uso de Maple 18, operaciones con bits y logica difusa (30-10-2019)">Clase #2</abbr></a></li>
+			</ul>
+		</aside>
+		<a style="color: green" href="../../../../UTM/UTM -libros/Matematicas disc/Kenneth Rosen Discrete Mathematics and Its Applications  2011.pdf">Libro 2011 ingles: 46</a><br><br>
+		<a style="color: yellowgreen" href="../../../../UTM/UTM -libros/Matematicas disc/SM__Rosen.pdf">Libro 2004 español: 41</a>
+	</header>
+	<section>
+		<article id="clase1">
+			<h3>Clase 1: Que es la <abbr title="Las matemáticas discretas son un área de las matemáticas encargadas del estudio de los conjuntos discretos: finitos o infinitos numerables.
+
+			En oposición a las matemáticas continuas, que se encargan del estudio de conceptos como la continuidad y el cambio continuo, las matemáticas discretas estudian estructuras cuyos elementos pueden contarse uno por uno separadamente. Es decir, los procesos en matemáticas discretas son contables, como por ejemplo, los números enteros, grafos y sentencias de lógica.
+			
+            
+			">matematica <abbr title="La clave en matemáticas discretas es que no es posible manejar las ideas de proximidad o límite y suavidad en las curvas, como se puede en el cálculo. Por ejemplo, en matemáticas discretas una incógnita puede ser 2 o 3, pero nunca se aproximará a 3 por la izquierda con 2.9, 2.99, 2.999, etc. Las gráficas en matemáticas discretas vienen dadas por un conjunto finito de puntos que se pueden contar por separado; es decir, sus variables son discretas o digitales, mientras que las gráficas en cálculo son trazos continuos de rectas o curvas; es decir, sus variables son continuas o analógicas">discreta</abbr></abbr>, Tablas de verdad <cite>(23-10-2019)</cite></h3>
+			<a href="book/clase1.html" style="color: orange">Clase 1 libro</a>
+			<p>
+			Dentro de este primer ciclo vamos aver: <br><br>
+			- Logica <br>
+			- Tablas de verdad <br>
+			- Circuitos logicos <br>
+			- Equivalencia logica <br>
+			- Leyes de la logica <br>
+			- Metodos de demostracion matematica <br>
+			- Conjuntos <br>
+			- Analisis combinatorio <br>
+			<br>
+
+			Segundo ciclo: <br><br>
+			- Grafos y arboles <br>
+			- Software matematico (exel, mathlab, maplet) <br>
+			- Maquinas de estado ___ <br>
+			<br>
+
+			Vamos a trabajar con la version 5 del libro "Kenneth Rosen Discrete Mathematics and Its Applications", el profesor explicara la clase por <strong>90</strong> minutos o menos, luego practicaremos en las computadoras. <strong>Todos</strong> somos responsables si algo se pierde en el curso. Los que tienen portatiles las pueden traer y usarlas. Vamos a usar un software que se llama <strong>maplet</strong> para laboratorio. El no nos dara turoriales sobre este software porque somos de informatica :v <br><br>
+			Este primer ciclo usaremos Maplet y exel, y en el segundo <strong>Mathlab</strong> La entrada es a las 10 am, si el maestro no llega en 30 minutos nos podemos ir. En cuanto a las <strong>calificaciones</strong>, el examen vale 15 puntos, un aporte que se tomara en un mes vale 10 puntos, los deberes valen 5. Hay que hacer un <strong>portafolio individual</strong>, que valdra 5 puntos. Un proyecto de investigacion vale 10 puntos. La actuacion son 5 puntos. Cada ciclo son 50 puntos. <br><br>
+
+			En el portafoleo iran las cases y consultas y hay que subirlo a la plataforma antes del examen de medio ciclo. Las clases van en un archivo, las consultas en otro, y el proyecto tambien. Los deberes son en forma virtual. Todas las diapositivas que el presenta estan sacadas del libro. <br><br>
+
+			Su correo es <strong>wchavez@utm.edu.ec</strong><br>
+			Su numero es <strong>0999434386</strong> <br><br>
+
+			<<< Maria Jose Acosta 18:00 <br><br>
+
+			Tendremos solo 16 clases, no deberiamos perder ninguna clase, si un dia no puede venir, enviara la clase para verla online. <br><br>
+
+			<strong class="sub">Clase: </strong><br><br>
+
+			Las computadoras no entienden nuestro lenguaje, por esto debemos traducir lo que les queremos decir. Lo que las computadoras entienden es la variacion del voltaje que solo tiene dos valores, es decir encendido o no, 0 y 1. <br><br>
+
+			- Propociciones <br><br>
+			En la lógica proposicional nos interesan los <strong>enunciados aseverativos</strong> y se les llama proposiciones. La lógica se interesa por este tipo de enunciados porque se les puede asignar un valor de verdad, ya sea falso (la información es incorrecta) o verdadero (la información es correcta). En este proyecto de aprendizaje nos interesan únicamente las expresiones aseverativas o proposiciones que cumplen con estas características:<br><br>
+
+			Solo pueden tener uno de los siguientes valores de verdad:
+			<br><br>
+			Verdadero: Usualmente representado con la letra V	<br>
+			Falso: Usualmente representado con la letra F <br>
+			No pueden ser falsas y verdaderas al mismo tiempo. <br>
+			Su valor de verdad depende únicamente de las proposiciones mismas y no de factores externos. <br><br>
+
+			- Proposiciones compuestas <br><br>
+			Las proposiciones individuales se llaman <strong>proposiciones primitivas</strong> ya que no es posible descomponerlas en elementos más sencillos. Sin embargo, si es posible combinarlas para crear estructuras más complejas. Por ejemplo, podemos afirmar cosas como: «mi carro es rojo» y «el elefante es grande» y combinar ambas proposiciones de diversas maneras: <br><br>
+
+			* Mi carro es rojo y el elefante es grande. <br>
+			* Mi carro es rojo o el elefante es grande. <br>
+			* Si el elefante es grande entonces mi carro es rojo. <br>
+			* No es cierto que mi carro es rojo o que el elefante es grande. <br><br>
+
+			- Tabla de verdad <br><br>
+
+			Es una tabla para comparar proposiciones, suelen usarse las letras P y Q para representarlas, siguiendo en orden alfabetico por si hay mas. <br><br>
+
+			<img src="images/tabla_verdad.png"> <br><br>
+
+			Una tabla de verdad lista todos los posibles valores de una o varias proposiciones simples y el valor de verdad de una o varias proposiciones compuestas construidas a partir de las proposiciones simples. En el caso más sencillo tenemos satiro simplemente una proposición simple y listamos los valores de verdad que puede tener, que en el caso de la lógica proposicional son únicamente 2: verdadero (V) y falso (V).<br><br>
+			En general una tabla debe tener <cite>2^n</cite> filas, donde <strong>n</strong> es la cantidad de proposiciones simples.
+			<br><br>
+			- Conectores logicos <br><br>
+
+			<<< O_O hasta me dio sueño escuchando esta clase de 3 horas <br><br>
+
+			TABLA DE VERDAD, LOGICA PROPOSICIONAL Y LEY DE MORGAN <br><br>
+			TABLAS DE VERDAD <br><br>
+			Estas tablas pueden construirse haciendo una interpretación de los signos lógicos, ¬ , ∧ , ∨ , → , ↔ ,como: no, y, o, si…entonces, sí y sólo si, respectivamente. La interpretación corresponde al sentido que estas operaciones tienen dentro del razonamiento. <br><br>
+			Puede establecerse una correspondencia entre los resultados de estas tablas y la deducción lógico matemática. En consecuencia, las tablas de verdad constituyen un método de decisión para chequear si una proposición es o no un <abbr title="Un teorema es una proposición cuya verdad se demuestra. En matemáticas, es toda proposición que partiendo de un supuesto, afirma una racionabilidad no evidente por sí misma.​ ">teorema</abbr>. <br><br>
+			Para la construcción de la tabla se asignará el valor "V" una proposición cierta y "F" una proposición falsa. <br><br>
+
+			LA <abbr title="Una conjunción es una palabra o conjunto de ellas que enlaza proposiciones, sintagmas o palabras. Constituye una de las clases de nexos. No debe confundirse con los marcadores del discurso, nexos de orden superior que unen textos, y no palabras, sintagmas ni oraciones.">CONJUNCIÓN</abbr>. <br><br>
+			Símbolo gramatical: y. <br><br>
+			Símbolo lógico: Ʌ. <br><br>
+
+			La conjunción solamente es cierta si lo son sus dos componentes. <br><br>
+
+			<img src="images/conjunciones.png"><br>	<br>	
+
+			LA <abbr title="1.
+			FORMAL
+			Separación o desunión de una cosa.
+			2.
+			FILOSOFÍA
+			Distinción entre dos realidades que están intrínsecamente relacionadas entre sí, como masculino y femenino, o izquierdo y derecho.">DISYUNCIÓN.</abbr> <br>	<br>							
+			Símbolo gramatical: o. <br>	<br>	
+			Símbolo lógico: V. <br>	<br>	
+
+			La disyunción solamente es falsa si lo son sus dos componentes. <br>	<br>	
+
+			<img src="images/disyuncion.png"> <br>	<br>	
+
+				LA <abbr title="Implicación (del latín implicare) se refiere al hecho de que hay algo «plegado» o doblado en el interior de algo que oculta lo que hay en su interior, de forma que lo interior no es visible o perceptible aunque esté ahí. En su uso común, una implicación es una afirmación que conlleva otra, sin que la segunda deba ser comunicada explícitamente.
+
+				La implicación es contrapuesta al término explicación (del latín explicare), que es el hecho de desplegar lo que está plegado; sacar al exterior, hacer visible, o comprensible, aquello que está “implicado” en el interior de algo que lo hacía oculto o no comprensible.">IMPLICACIÓN</abbr>. <br><br>
+			Símbolo gramatical: si, entonces. <br><br>
+			Símbolo lógico: →. <br><br>
+
+
+			La implicación es falsa únicamente si el antecedente es verdadero y el consecuente es falso.  <br><br>
+
+			<img src="images/implicacion.png"> <br><br>
+
+			LA DOBLE IMPLICACIÓN. <br><br>
+			Símbolo gramatical: si y solo si. <br><br>
+			Símbolo lógico: ↔. <br><br>
+
+
+			La doble implicación es verdadera únicamente si el antecedente es verdadero y el consecuente es verdadero, o, el antecedente es falso y el consecuente es falso.  <br><br>
+
+			<img src="images/doble implicacion.png"><br><br>
+
+			LA NEGACIÓN. <br><br>
+			Símbolo gramatical: no. <br><br>
+			Símbolo lógico: ~. <br><br>
+
+
+			La negación cambia el valor de los elementos de verdadero a falso, y de falso a verdadero. <br><br>
+
+			<img src="images/negacion.png"> <br><br>
+
+			<!--
+			links:
+			http://temastallerresoluciondeproblemas.blogspot.com/2017/06/tabla-de-verdad-logica-proposicional-y.html
+			link que enviaron por el grupo con las leyes de la tarea
+			https://es.slideshare.net/RonaldWielman/leyes-del-algebra-proposicional-68531006
+			-->
+			</p>
+		</article>
+		<article id="clase2">
+			<h3>Clase 2: Uso de <abbr title="Maple es un programa orientado a la resolución de problemas matemáticos, capaz de realizar cálculos simbólicos, algebraicos y de álgebra computacional.
+
+			Fue desarrollado originalmente en 1981 por el Grupo de Cálculo Simbólico en la Universidad de Waterloo en Waterloo, Ontario, Canadá. Desde 1988 ha sido mejorado y vendido comercialmente por Waterloo Maple Inc. (también conocida como Maplesoft), compañía canadiense con sede en la misma localidad. La última versión es Maple 2018.">Maple</abbr> 18, operaciones con bits y logica difusa <cite>(30-10-2019)</cite></h3>
+			<a style="color: red" href="resources/discreta_logica.pdf">Libro ensayo sobre esta materia.</a> Pagina: 7 <br><br>
+			<a style="color: red" href="resources/maple_guia_1.pdf">Guia basica de Maple</a> Pagina: 0 <br><br>
+			<p>
+				- La tarea la hizo kenneth <br><br>
+				- El tabajo anterior en grupo tuvo 44 puntos <br><br>
+				- Encendimos las computadoras y abrimos Maple 18 <br><br>
+				<strong><<< 12</strong> <br><br>
+				- Revisamos algo de la clase anterior <br><br>
+				- Uso de Maple: <br><br>
+				-------* V = true <br><br>
+				-------* F = false <br><br>
+				-------* -> = implies <br><br>
+				-------* ~ = not <br><br>
+				-------* asignar = <strong>:=</strong> <br><br>
+
+				<strong>Ejemplo:</strong> <br><br>
+				(p^q) v ~r  <br><br>
+				si:  <br><br>
+				---p = true <br><br>
+				---q = true <br><br>
+				---r = true <br><br>
+
+				Esto en maple sería: (true^true)v~(true) <br><br>
+
+				<strong><<< 38</strong> <br><br>
+
+				Aqui explico como se <abbr title="La evaluación de una expresión algebraica consiste en sustituir el o los valores proporcionados de las variables, para encontrar el valor numérico de la expresión.">evalua</abbr> una proposicion pero no entendi muy bien:  <br><br>
+				~p = prop1 <br><br>
+				eval (prop1, p = false) <br><br>
+
+				<strong><<<44</strong> Proxima clase investigar comandos: if, for, while <br><br>
+				<strong><<<50 </strong>for en maple <br><br>
+				<strong><<<114</strong><br><br>
+				<strong><<<131</strong> evaluar (p v q)^r <br><br>
+				<strong><<<145</strong> codigo de un ejercicio <br><br>
+				<strong><<<149</strong> Siguiente clase los ejercicios del taller anterior deben ser resueltos con maple F <br><br>
+				<strong><<<153</strong> Apagar las computadoras, clase nueva <<< operaciones con bits <br><br>
+				<strong class="sub">Clase</strong><br><br>
+				Una operación bit a bit o <a href="https://es.wikipedia.org/wiki/Operador_a_nivel_de_bits">bitwise</a> opera sobre números binarios a nivel de sus bits individuales. Es una acción primitiva rápida, soportada directamente por los procesadores. En procesadores simples de bajo costo, las operaciones de bit a bit, junto con los de adición y sustracción, son típicamente sustancialmente más rápidas que la multiplicación y la división, mientras que en los modernos procesadores de alto rendimiento usualmente las operaciones se realizan a la misma velocidad. <br><br>
+				<img id="operaciones_bits" src="images/operaciones_bits.png"><br><br>
+				<strong>Lógica difusa</strong><br><br>
+				La lógica difusa (también llamada lógica borrosa) se basa en lo relativo de lo observado como posición diferencial. Este tipo de lógica toma dos valores aleatorios, pero contextualizados y referidos entre sí. Así, por ejemplo, una persona que mida dos metros es claramente una persona alta, si previamente se ha tomado el valor de persona baja y se ha establecido en un metro. <br><br>
+				Ambos valores están contextualizados a personas y referidos a una medida métrica lineal. La lógica difusa (fuzzy logic, en inglés) se adapta mejor al mundo real en el que vivimos, e incluso puede comprender y funcionar con nuestras expresiones, del tipo «hace mucho calor», «no es muy alto», «el ritmo del corazón está un poco acelerado», etc. <br><br>
+
+				La <abbr title="aaaa esto explica el ejercicio de hoy que ers de que alguien estaba mas feliz que otro">clave</abbr> de esta adaptación al lenguaje se basa en comprender los cuantificadores de cualidad para nuestras inferencias (en los ejemplos de arriba, «mucho», «muy» y «un poco»). <br><br>
+
+				En la teoría de conjuntos difusos se definen también las operaciones de unión, intersección, diferencia, negación o complemento, y otras operaciones sobre conjuntos (ver también subconjunto difuso), en los que se basa esta lógica.<br><br>
+
+			</p>
+		</article>
+	</section>
+</body>
+</html>
